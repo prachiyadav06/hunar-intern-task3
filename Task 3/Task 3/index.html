@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Streaming Service</h1>
+    </header>
+    <main>
+        <section class="movie-list">
+            <h2>Popular Movies</h2>
+            <div class="movies">
+                <div class="movie" onclick="showDetails('Movie 1', 'Description of Movie 1')">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.Tcrx2XtyPgNt5fTv9M_pGAHaKX&pid=Api&P=0&h=220" alt="Movie 1">
+                    <p>Movie 1</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 2', 'Description of Movie 2')">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP._EdqD2uohqLotkEzhwGQ3wHaKx&pid=Api&P=0&h=220" alt="Movie 2">
+                    <p>Movie 2</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 3', 'Description of Movie 3')">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.1umjRUVLTbPQCPVU_q1HPgHaK-&pid=Api&P=0&h=220" alt="Movie 3">
+                    <p>Movie 3</p>
+                </div>
+    
+                <div class="movie" onclick="showDetails('Movie 4', 'Description of Movie 4')">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.64vi1YW2VTGVr2_6i5CP7wHaLH&pid=Api&P=0&h=220" alt="Movie 4">
+                    <p>Movie 4</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 5', 'Description of Movie 5')">
+                    <img src="https://cdn.moviefone.com/image-assets/1112426/ySgXTdmylX2yDAcQ484ESbGlFNO.jpg?d=360x540" alt="Movie 5">
+                    <p>Movie 5</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 6', 'Description of Movie 6')">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.Z32lefSVlJV1n9YTms4Z_wHaLP&pid=Api&P=0&h=220" alt="Movie 6">
+                    <p>Movie 6</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 7', 'Description of Movie 7')">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP._RN7PeExWxpvEp7_Ps60QAHaLG&pid=Api&P=0&h=220" alt="Movie7">
+                    <p>Movie 7</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 8', 'Description of Movie 8')">
+                    <img src="https://i.pinimg.com/736x/a8/2b/b5/a82bb5eadfee5bbe2f1de6e3c16c7391.jpg" alt="Movie 8">
+                    <p>Movie 8</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 9', 'Description of Movie 9')">
+                    <img src="https://cdn.ebaumsworld.com/mediaFiles/picture/2265415/85636204.jpg" alt="Movie 9">
+                    <p>Movie 9</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 10', 'Description of Movie 10')">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.BOV4h0q56WfRojdOZeAWtwHaLa&pid=Api&P=0&h=220" alt="Movie 10">
+                    <p>Movie 10</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 11', 'Description of Movie 11')">
+                    <img src="https://i.pinimg.com/originals/bb/55/dc/bb55dc5efb9cb92a8b6c0913264b2485.jpg" alt="Movie 11">
+                    <p>Movie 11</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 12', 'Description of Movie 12')">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.qwUsesW0WuMW3npo9avnbAHaK9&pid=Api&P=0&h=220" alt="Movie 12">
+                    <p>Movie 12</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 13', 'Description of Movie 13')">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.2YRWKnVEBZbqHvDmLJofvAHaLD&pid=Api&P=0&h=220" alt="Movie 13">
+                    <p>Movie 13</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 14', 'Description of Movie 14')">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.F8tU9wy_GrFoBLSp19dXFAHaK-&pid=Api&P=0&h=220" alt="Movie 14">
+                    <p>Movie 14</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 15', 'Description of Movie 15')">
+                    <img src="https://i.pinimg.com/originals/a7/77/d8/a777d84088d46c556270d17bccc4c30c.jpg" alt="Movie 15">
+                    <p>Movie 15</p>
+                </div>
+                <div class="movie" onclick="showDetails('Movie 16', 'Description of Movie 16')">
+                <img src="https://1.bp.blogspot.com/-79vmCCwoZ_E/X4_artAUp7I/AAAAAAAAaO4/qsr-ZiGmgwcmsP72F_NAyWamwA2rsLhTwCLcBGAsYHQ/s595/Suraj-Pe-Mangal-Bhari-movie-poster-release-date.jpg" alt="Movie 16">
+                    <p>Movie 16</p>
+                </div>
+            </div>
+        </section>
+        <section id="details" class="details">
+            <h2>Movie Details</h2>
+            <div id="details-content">
+                <h3 id="title"></h3>
+                <p id="description"></p>
+                <button onclick="playVideo()">Play Video</button>
+            </div>
+        </section>
+        <div id="video-modal" class="modal" onclick="closeVideo()">
+            <video id="video-player" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+    <script>
+        function showDetails(title, description) {
+            document.getElementById('title').innerText = title;
+            document.getElementById('description').innerText = description;
+            document.getElementById('details').style.display = 'block';
+        }
+
+        function playVideo() {
+            document.getElementById('video-modal').style.display = 'block';
+            document.getElementById('video-player').play();
+        }
+
+        function closeVideo() {
+            document.getElementById('video-modal').style.display = 'none';
+            document.getElementById('video-player').pause();
+        }
+    </script>
+</body>
+</html>
